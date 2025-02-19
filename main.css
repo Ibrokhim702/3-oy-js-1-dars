@@ -1,0 +1,99 @@
+body{
+    background-color: blanchedalmond;
+
+}
+.swiper{
+    width: 800px;
+    height: 600px;
+}
+.swiper-wrapper{
+    text-align: center;
+    margin-top: 50px;
+}
+.container{
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    gap: 90px;
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s ease-in-out;
+    font-weight: 800;
+}
+.link:hover{
+    color: orange;
+}
+.swiper{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+header{
+    padding-top: 20px;
+}
+.wrapper__title{
+font-family: Sofia Sans;
+font-size: 76px;
+font-weight: 900;
+line-height: 137%;
+width: 598px;
+color: white;
+}
+p{
+    color: rgba(28, 20, 21, 0.8);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+width: 613px;
+padding-top: 60px;
+}
+.header__btn{
+    border-radius: 20px;
+background: rgb(28, 20, 21);
+color: white;
+padding: 10px;
+width: 90px;
+transition: 0.5s ease-in-out;
+border: none;
+}
+.header__btn:hover{
+    background-color: orange;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    border-radius: 50%; 
+    color: black;
+    width: 50px; 
+    height: 50px;
+    display: flex;
+    align-items:center;
+}
+h2{
+    color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 70px;
+font-weight: 700;
+line-height: 137%;
+color: black;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
